@@ -1,0 +1,32 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "MEAN Application",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JyothiGandi/MEAN.git"
+  },
+  "keywords": [
+    "NodeJS/Express",
+    "Angular",
+    "MongoDB"
+  ],
+  "author": "Jyothi Gandi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JyothiGandi/MEAN/issues"
+  },
+  "homepage": "https://github.com/JyothiGandi/MEAN#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.12"
+  }
+}
